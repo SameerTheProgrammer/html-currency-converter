@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html{
+    font-size:62.5%;
+}
+
+body{
+    min-height: 100Vh;
+    min-width: 100wh;
+    background: #675AFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.currency-converter{
+    width: 38rem;
+    background: #fff;
+    border-radius: 5px;
+    padding: 3rem;
+}
+header{
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+form{
+    margin: 3.5rem 0 2rem 0;
+}
+
+form p {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+form :where(input, button){
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    /* border: none; */
+}
+form input:focus{
+    border: 2px solid #675AFE;
+    padding: 0 1.5rem;
+}
+form input{
+    height: 5rem;
+    font-size: 1.75rem;
+    padding: 0 1.5rem;
+    border: 1px solid #999;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.select-box img{
+    max-width: 2rem;
+}
+.select-box{
+    height:4.5rem;
+    width:11.5rem;
+    border-radius: 5px;
+    border: 1px solid #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form .icon{
+    font-size: 2.5rem;
+    margin-top: 3.4rem;
+}
+.select-box select{
+    margin-left: 1rem;
+    border: none;
+    font-size: 1.7rem;
+}
+.exchange-rate{
+    font-size: 1.75rem;
+    margin: 2rem 0 3rem 0;
+}
+.btn{
+    height: 5rem;
+    background: #675AFE;
+    cursor: pointer;
+    transition: 0.25s;
+    font-size: 1.7rem;
+    color: #fff;
+}
+.btn:hover{
+    background: #4534fe;
+}
